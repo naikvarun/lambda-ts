@@ -1,0 +1,22 @@
+{
+  "name": "lambda-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Varun Naik",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.159",
+    "@types/node": "^24.10.1",
+    "esbuild": "0.27.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "pino": "^10.1.0"
+  }
+}
