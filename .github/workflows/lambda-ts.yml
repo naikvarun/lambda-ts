@@ -37,3 +37,4 @@ jobs:
           code-artifacts-dir: ./dist
           handler: handler.handler
           runtime: nodejs22.x
+          role: arn:aws:iam::123456789012:role/lambda-role
